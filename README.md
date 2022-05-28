@@ -8,6 +8,6 @@ The game Simon, but implemented on a Raspberry Pi. Technically an RP2040/QT Py. 
 ## Parts list
 - 1 x [Adafruit QT PY](https://www.adafruit.com/product/4900)
 - 1 x [4-key enclosure](https://www.adafruit.com/product/5073)
-- 4 x [Neopixel minis](https://www.adafruit.com/product/1612)
+- 3 x [Neopixel minis](https://www.adafruit.com/product/1612) (the MCU occupies the space below the first switch, so the onboard Neopixel is used for illumination. Since the other LEDs are much brighter their output gets scaled down for consistency 😞)
 - 4 x Gateron Milky Blue switches
 - 4 x [Windowed R4 keycaps](https://www.adafruit.com/product/5112)
